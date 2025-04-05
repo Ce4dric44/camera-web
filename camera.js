@@ -18,7 +18,11 @@ async function startCamera() {
 
 // Charger le modèle TensorFlow.js
 async function loadModel() {
+<<<<<<< Updated upstream
   const model = await tf.loadLayersModel('/home/cedric/Bureau/Travail/Arts Plastique/mon_modele_final.json');  // Remplace par le chemin vers ton modèle
+=======
+  const model = await tf.loadLayersModel('/path/to/your/model.json');  // Remplace par le chemin vers ton modèle
+>>>>>>> Stashed changes
   return model;
 }
 
